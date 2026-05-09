@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: sora-website
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: sora-website
+  template:
+    metadata:
+      labels:
+        app: sora-website
+    spec:
+      containers:
+        - name: sora-website
+          image: 818521988849.dkr.ecr.ap-northeast-2.amazonaws.com/bluerain-gitops-repo:latest
+          ports:
+            - containerPort: 80
