@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
         - name: sora-website
-          image: 818521988849.dkr.ecr.ap-northeast-2.amazonaws.com/bluerain-gitops-repo:c962de2fcb5b0999e8f0df0185c2c41635fee7ae
+          image: 818521988849.dkr.ecr.ap-northeast-2.amazonaws.com/bluerain-gitops-repo:992e38605d4e066a427f6acaddf4fcb4a4a172d9
           ports:
             - containerPort: 80
