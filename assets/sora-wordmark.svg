@@ -1,0 +1,27 @@
+<svg width="520" height="110" viewBox="0 0 520 110" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">SORA wordmark logo</title>
+  <desc id="desc">SORA icon with bright blue radial emblem and silver title text</desc>
+  <defs>
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#33E9FF"/>
+      <stop offset="1" stop-color="#0A69FF"/>
+    </linearGradient>
+    <linearGradient id="txt" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F3F7FD"/>
+      <stop offset="1" stop-color="#AFC0D6"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(8,9)" stroke="url(#ring)" fill="none" stroke-width="4">
+    <circle cx="42" cy="42" r="34"/>
+    <circle cx="42" cy="42" r="24"/>
+    <circle cx="42" cy="42" r="14"/>
+    <path d="M8 42H76M42 8V76" stroke-width="3"/>
+    <circle cx="42" cy="42" r="4" fill="url(#ring)"/>
+    <circle cx="42" cy="8" r="4" fill="url(#ring)"/>
+    <circle cx="76" cy="42" r="4" fill="url(#ring)"/>
+    <circle cx="42" cy="76" r="4" fill="url(#ring)"/>
+    <circle cx="8" cy="42" r="4" fill="url(#ring)"/>
+  </g>
+  <text x="100" y="58" fill="url(#txt)" font-size="60" font-family="Segoe UI, Arial, sans-serif" font-weight="800" letter-spacing="2">SORA</text>
+  <text x="102" y="84" fill="#C4D2E5" font-size="14" font-family="Segoe UI, Arial, sans-serif" font-weight="600" letter-spacing="1.2">SECURITY ORCHESTRATION, RESPONSE, AND AUTOMATION</text>
+</svg>
