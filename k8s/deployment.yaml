@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: sora-website
-  namespace: sora-wbsite
+  namespace: sora-website
 spec:
   replicas: 1
   selector:
