@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: sora-website-svc
 spec:
-  type: ClusterIP
+  type: LoadBalancer
   selector:
     app: sora-website
   ports:
