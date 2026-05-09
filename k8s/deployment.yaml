@@ -4,7 +4,7 @@ metadata:
   name: sora-website
   namespace: sora-website
 spec:
-  replicas: 5
+  replicas: 1
   selector:
     matchLabels:
       app: sora-website
